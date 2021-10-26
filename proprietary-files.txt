@@ -1,0 +1,75 @@
+### BLUETOOTH_FIRMWARE
+vendor/etc/wifi/mx140_bt.hcf
+
+### CAMERA
+vendor/lib/hw/camera.exynos9611.so
+vendor/lib64/hw/camera.exynos9611.so
+
+# CAMERA_DEPENDENCIES
+vendor/lib/libexynoscamera3.so
+vendor/lib64/libexynoscamera3.so
+
+### GPS/GNSS
+vendor/bin/hw/gpsd
+vendor/etc/gnss/ca.pem
+vendor/lib/libwrappergps.so
+vendor/lib64/hw/android.hardware.gnss@2.1-impl.so:vendor/lib64/hw/android.hardware.gnss@2.1-impl.samsung.so
+vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so
+vendor/lib64/libwrappergps.so
+
+### RIL
+vendor/bin/hw/rild
+vendor/bin/cbd
+vendor/bin/secril_config_svc
+vendor/etc/init/init.baseband.rc
+vendor/etc/plmn_delta.bin
+vendor/etc/plmn_delta_attaio.bin
+vendor/etc/plmn_delta_hktw.bin
+vendor/etc/plmn_delta_usagsm.bin
+vendor/etc/plmn_se13.bin
+vendor/lib/libaudio-ril.so
+vendor/lib/libmdf.so
+vendor/lib/libril.so:vendor/lib/libril-samsung.so
+vendor/lib/libsecril-client.so
+vendor/lib/libsecure_storage.so
+vendor/lib/libsemnativecarrierfeature.so
+vendor/lib/vendor.samsung.hardware.radio.bridge@2.0.so
+vendor/lib/vendor.samsung.hardware.radio@2.0.so
+vendor/lib/vendor.samsung.hardware.radio@2.1.so
+vendor/lib64/libengmode_client.so
+vendor/lib64/libmdf.so
+vendor/lib64/libril.so:vendor/lib64/libril-samsung.so
+vendor/lib64/libsec-ril.so
+vendor/lib64/libsec-ril-dsds.so
+vendor/lib64/libsecril-client.so
+vendor/lib64/libsecure_storage.so
+vendor/lib64/libsemnativecarrierfeature.so
+vendor/lib64/libvkmanager_vendor.so
+vendor/lib64/vendor.samsung.hardware.radio.bridge@2.0.so
+vendor/lib64/vendor.samsung.hardware.radio.channel@2.0.so
+vendor/lib64/vendor.samsung.hardware.radio@2.0.so
+vendor/lib64/vendor.samsung.hardware.radio@2.1.so
+
+### SAMSUNG_SLSI_CONFIGSTORE
+system/lib/vendor.samsung_slsi.hardware.configstore-utils.so
+system/lib/vendor.samsung_slsi.hardware.configstore@1.0.so
+system/lib64/vendor.samsung_slsi.hardware.configstore-utils.so
+system/lib64/vendor.samsung_slsi.hardware.configstore@1.0.so
+
+### SAMSUNG_SLSI_HWC
+system/lib/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so
+system/lib64/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so
+
+### VIBRATOR
+system/lib/vendor.samsung.hardware.vibrator@2.0.so
+system/lib/vendor.samsung.hardware.vibrator@2.1.so
+system/lib/vendor.samsung.hardware.vibrator@2.2.so
+system/lib64/vendor.samsung.hardware.vibrator@2.0.so
+system/lib64/vendor.samsung.hardware.vibrator@2.1.so
+system/lib64/vendor.samsung.hardware.vibrator@2.2.so
+system/lib/vendor.samsung.hardware.vibrator-V1-cpp.so
+system/lib64/vendor.samsung.hardware.vibrator-V1-cpp.so
+
+# WIDEVINE #
+system/lib/vendor.samsung.hardware.security.widevine.keyprov@1.0.so
+system/lib64/vendor.samsung.hardware.security.widevine.keyprov@1.0.so
