@@ -13,10 +13,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include device/samsung/m30s-common/BoardConfigPlatform.mk
-include vendor/samsung/m30s/BoardConfigVendor.mk
+include device/samsung/m21-common/BoardConfigPlatform.mk
+include vendor/samsung/m21/BoardConfigVendor.mk
 
-DEVICE_PATH := device/samsung/m30s
+DEVICE_PATH := device/samsung/m21
 
 # APEX image
 DEXPREOPT_GENERATE_APEX_IMAGE := true
