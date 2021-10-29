@@ -3,6 +3,8 @@ $(call inherit-product, device/samsung/21-common/platform.mk)
 ### PROPRIETARY VENDOR FILES
 $(call inherit-product, vendor/samsung/m21/m21-vendor.mk)
 
+$ Board_has_dynamic_partitions = true 
+
 ### DALVIK
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
