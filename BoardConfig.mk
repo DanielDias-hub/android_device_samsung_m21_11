@@ -30,7 +30,7 @@ TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/hardware/include
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/device_manifest.xml
 
 ### KERNEL
-TARGET_KERNEL_CONFIG := m21_defconfig
+TARGET_KERNEL_CONFIG := exynos9610-m21_permissive_defconfig
 
 ### SYSTEM PROPS
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
