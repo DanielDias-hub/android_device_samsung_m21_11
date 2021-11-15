@@ -17,4 +17,4 @@ DEVICE_PATH := device/samsung/m21
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay
 
-include $(DEVICE_PATH)/device/*.mk
+include $(DEVICE_PATH)/device/samsung/m21/device.mk
